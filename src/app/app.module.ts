@@ -8,7 +8,7 @@ import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatInputModule,MatFormFieldModule, MatCardModule,MatButtonModule} from '@angular/material';
+import {MatInputModule,MatFormFieldModule, MatCardModule,MatButtonModule, MatRadioModule, MatDatepickerModule, MatNativeDateModule} from '@angular/material';
 import { HeaderComponent } from './header/header.component';
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { HeaderComponent } from './header/header.component';
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatInputModule,MatFormFieldModule,MatCardModule,MatButtonModule
+    MatInputModule,MatFormFieldModule,MatCardModule,MatButtonModule,MatRadioModule,MatDatepickerModule,MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent]

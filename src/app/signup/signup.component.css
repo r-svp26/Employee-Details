@@ -1,6 +1,5 @@
 mat-card{
 width: 400px;
-text-align: center;
 background-color:#00ffe712;
 }
 .padding{
@@ -12,4 +11,9 @@ mat-form-field{
 }
 h3{
     text-align: center;
+}
+
+.mat-raised-button:hover{
+    background-color: green;
+    
 }
