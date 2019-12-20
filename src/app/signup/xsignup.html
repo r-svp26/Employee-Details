@@ -1,0 +1,16 @@
+<div class="container">
+    <form #signUp="ngForm">
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName"  [(ngModel)]="firstName">
+
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" [(ngModel)]="lastName">
+
+        <label for="place">Place</label>
+        <input type="text" name="place" [(ngModel)]="place">
+
+        <button type="submit" value="btn btn-success" (click)="onSubmit(signUp)">Submit</button>
+
+    </form>
+    
+</div>

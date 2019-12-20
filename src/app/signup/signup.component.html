@@ -1,0 +1,25 @@
+
+<app-header></app-header>
+<div class="padding">
+    <mat-card>
+        <form #signUp="ngForm">    
+            <h3>Sign Up</h3>
+        
+            <mat-card-content>
+                <mat-form-field appearance="outline">
+                    <mat-label>First Name</mat-label>
+                    <input matInput type="text" name="firstName"  [(ngModel)]="firstName">
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput type="text" name="lastName" [(ngModel)]="lastName">
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                    <mat-label>Place</mat-label>
+                    <input matInput type="text" name="place" [(ngModel)]="place">
+                </mat-form-field>
+            </mat-card-content>
+            <button mat-raised-button color="primary" (click)="onSubmit(signUp)"> SUBMIT</button> 
+        </form>
+    </mat-card>        
+</div>
